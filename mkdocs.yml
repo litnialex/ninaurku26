@@ -1,0 +1,49 @@
+site_name: Songs
+docs_dir: Songs
+site_dir: './web-pages'
+site_url: https://ninaurku26.canta.md/
+repo_url: https://github.com/litnialex/ninaurku26
+use_directory_urls: true #default is true and it does not work properly when browsing file://
+theme:
+    name: 'material'
+    #custom_dir: overrides
+    features:
+      - navigation.top # back-to-top button when scrolling up
+      - header.autohide # header is automatically hidden when the user scrolls
+
+    palette:
+      - media: "(prefers-color-scheme)"
+        toggle:
+          icon: material/brightness-auto
+          name: Switch to light theme
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: pink
+        accent: deep-purple
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark theme
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: pink
+        accent: purple
+        toggle:
+          icon: material/brightness-4
+          name: Switch to system preference
+markdown_extensions:
+  - footnotes
+  - def_list
+  - pymdownx.magiclink # convert https://... into links automatically
+  - pymdownx.caret:
+      smart_insert: False
+  - pymdownx.mark:
+      smart_mark: False
+  - toc:
+      permalink: true
+plugins:
+  - search
+  - pub-meta: # https://mkdocs-publisher.github.io/development/other/backlog/
+      publish:
+        file_default: true # one of true|draft|hidden
+        key_name: publish
+
