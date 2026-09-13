@@ -1,3 +1,6 @@
+---
+publish: hidden
+---
 # Nina Urku 2026 Songbook
 
 ## Invitation for colaboration   
