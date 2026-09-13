@@ -23,3 +23,4 @@ Value is one of:
 - `"true"`(**the default if omitted**)  — page is built and shown in navigation.
 - `draft` — page is excluded from the build.
 - `hidden` — page is built and reachable by URL but left out of navigation (used for `index.md`).
+
