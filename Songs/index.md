@@ -1,7 +1,9 @@
 # Nina Urku 2026 Songbook
 
 ## Invitation for colaboration   
-You are welcome to contribute the contents of this songbook!  
+You are welcome to contribute to this songbook!
 
-Create your account at gihub.com and send me a request to grant you permissions in [telegram](https://t.me/brotherwind)  
+Sources of this web-site are hosted in the public repository https://github.com/litnialex/ninaurku26
+
+Contact me at [@brotherwind](https://t.me/brotherwind) for granting permisions to the repository. 
 
